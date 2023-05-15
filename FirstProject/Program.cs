@@ -87,7 +87,12 @@ class Program
         // Take note of the comma in the String[,] declration for type
         String[,] parkingLot = { { "Car1", "Car2" }, { "Car3", "Car4" } };
 
+        // Invoking class methods
+        Messages.Hello();
 
+        // Object -> an instance of a class
+        // a class can be used as a blueprint to create objects (OOP)
+        // Objects can have fields & methods
     }
     static void repeatNTimes(int n)
     {
