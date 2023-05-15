@@ -74,6 +74,20 @@ class Program
         //    Console.WriteLine("Type numbers");
         //}
 
+        //Ternary/Conditional Operator
+
+        double costTotal = CheckOut(1.2, 2.4);
+        Console.WriteLine(costTotal > 5.0 ? true : false);
+
+        // String interpolation -> inserting variables into strings, using $ and {}
+
+        Console.WriteLine($"The total cost of your cart is {costTotal}");
+
+        // Multi-dimensional array
+        // Take note of the comma in the String[,] declration for type
+        String[,] parkingLot = { { "Car1", "Car2" }, { "Car3", "Car4" } };
+
+
     }
     static void repeatNTimes(int n)
     {
