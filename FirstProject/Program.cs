@@ -1,4 +1,7 @@
-﻿namespace FirstProject;
+﻿using System;
+using System.Collections.Generic;
+
+namespace FirstProject;
 class Program
 {
     static void Main(string[] args)
